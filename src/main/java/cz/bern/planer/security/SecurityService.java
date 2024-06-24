@@ -3,8 +3,8 @@ package cz.bern.planer.security;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
-import cz.stepit.social.repository.MemberRepository;
-import cz.stepit.social.service.MemberNotFoundException;
+import cz.bern.planer.repository.MemberRepository;
+import cz.bern.planer.service.MemberNotFoundException;
 
 @Service
 public class SecurityService {

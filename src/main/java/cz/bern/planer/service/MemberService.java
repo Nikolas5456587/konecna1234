@@ -5,8 +5,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
-import cz.stepit.social.entities.Member;
-import cz.stepit.social.repository.MemberRepository;
+import cz.bern.planer.entities.Member;
+import cz.bern.planer.repository.MemberRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
